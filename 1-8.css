@@ -1,0 +1,53 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+header {
+	width: 960px;
+	margin: 50px auto;
+
+}
+.list {
+	padding: 20px 0 20px 20px;
+	font-size: 10px;
+
+}
+.h {
+	width: 960px;
+	height: 50px;
+}
+.h:nth-child(odd) {
+	background-color: blue;
+
+}
+.visual-main {
+	margin: 0 auto;
+	margin-bottom: 10px;
+	width: 960px;
+	height: 680px;
+}
+.box {
+	height: 200px;
+	width: 30%;
+	margin-right: 5%;
+	margin-bottom: 40px;
+	background-color: yellow;
+	float: left;
+}
+.box2 {
+	height: 200px;
+	width: 30%;
+	margin-bottom: 40px;
+	background-color: yellow;
+	float: left;
+}
+.box:nth-child(1) {
+	background-color: orange;
+}
+.box:nth-child(5) {
+	background-color: orange;
+}
+.box2:nth-child(9) {
+	background-color: orange;
+}
